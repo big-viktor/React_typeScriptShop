@@ -1,0 +1,57 @@
+.body-background {
+  background: rgba(0, 0, 0, 0.35);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+}
+.artwork-page-container {
+  height: 669px;
+  width: 1257px;
+  border: 1px solid #ffffff;
+  border-radius: 13px;
+  background: #ffffff;
+  position: relative;
+  margin: 0 auto;
+  top: 25px;
+}
+.content-starts {
+  padding-top: 15px;
+  color: #9b9b9b;
+  font-family: Arial;
+  font-size: 24px;
+  letter-spacing: 2.12px;
+  line-height: 84px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.button-exite {
+  float: right;
+  margin-right: 45px;
+}
+.container-scroll {
+  overflow: scroll;
+  margin-top: 0px;
+  height: 530px;
+  border-radius: 13px;
+  margin: 0px 50px 0px 50px;
+}
+.container-scroll::-webkit-scrollbar {
+  width: 10px;
+}
+.container-scroll::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #9b9b9b;
+}
+
+.artwork-page-add {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.artwork-page-name {
+  margin: 0px;
+  padding: 0px;
+}

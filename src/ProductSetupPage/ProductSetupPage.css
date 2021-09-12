@@ -1,0 +1,13 @@
+.product-setuo-pages {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.container-product-setup {
+  display: flex;
+  justify-content: flex-start;
+}
+.toggle-conteiner {
+  display: flex;
+  padding-left: 570px;
+}

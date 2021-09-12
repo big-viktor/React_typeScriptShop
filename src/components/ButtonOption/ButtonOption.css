@@ -1,0 +1,37 @@
+.add-option {
+  box-sizing: border-box;
+  height: 35px;
+  width: 316px;
+  border: 1px solid #e1e1e1;
+  background-color: #ffffff;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+}
+.add-option::after {
+  content: ' ';
+  position: absolute;
+  background-color: #6495ce;
+  width: 3px;
+  height: 10px;
+  left: 7px;
+  top: 11px;
+}
+.add-option::before {
+  content: ' ';
+  position: absolute;
+  background-color: #6495ce;
+  width: 10px;
+  height: 3px;
+  left: 4px;
+  top: 14px;
+}
+.add-options-texts {
+  text-transform: uppercase;
+  color: #6495ce;
+  font-family: Arial;
+  font-size: 12px;
+  line-height: 17px;
+  margin: 0;
+  padding: 7px 0 0 17px;
+}

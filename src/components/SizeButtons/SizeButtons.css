@@ -1,0 +1,39 @@
+.size-buttons-container {
+  display: flex;
+}
+.size-buttons {
+  box-sizing: border-box;
+  margin-left: 2px;
+  width: 44px;
+  height: 25px;
+  border: 1px solid #d8d8d8;
+  border-radius: 2px;
+  background-color: #ffffff;
+  color: #4a90e2;
+  font-family: Raleway;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 0.71px;
+  line-height: 11px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.size-buttons:focus {
+  margin-left: 2px;
+  height: 11px;
+  width: 40px;
+  color: #4a4a4a;
+  font-family: Raleway;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 0.71px;
+  line-height: 11px;
+  text-align: center;
+  box-sizing: border-box;
+  height: 24px;
+  width: 44px;
+  border: 1px solid #d8d8d8;
+  border-radius: 2px;
+  background-color: #dbecff;
+  text-transform: uppercase;
+}

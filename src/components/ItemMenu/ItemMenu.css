@@ -1,0 +1,95 @@
+.items-menu {
+  height: 35px;
+  width: 316px;
+  border: 1px solid #979797;
+  background-color: #979797;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+}
+.items-menu::before {
+  content: '';
+  border-style: solid;
+  border-width: 5.5px;
+  border-color: transparent transparent transparent #ffffff;
+  position: absolute;
+  left: 10px;
+  top: 12px;
+}
+.items-menu-text {
+  margin: 0;
+  padding: 7px 0 0 17px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+}
+.items-menu-reverse {
+  height: 35px;
+  width: 316px;
+  border: 1px solid #979797;
+  background-color: #979797;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+}
+.items-menu-reverse::before {
+  content: '';
+  border-style: solid;
+  border-width: 5.5px;
+  border-color: #ffffff transparent transparent transparent;
+  position: absolute;
+  left: 8px;
+  top: 15px;
+}
+.dropdown {
+  display: none;
+  min-width: 100%;
+}
+.button-options {
+  box-sizing: border-box;
+  height: 35px;
+  width: 316px;
+  border: 1px solid #e1e1e1;
+  background-color: #ffffff;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+}
+.button-options::before {
+  content: '';
+  border-style: solid;
+  border-width: 5px;
+  border-color: transparent transparent transparent #666666;
+  position: absolute;
+  left: 11px;
+  top: 13px;
+}
+.button-options-text {
+  text-transform: uppercase;
+  color: #9b9b9b;
+  font-family: Arial;
+  font-size: 12px;
+  letter-spacing: 0.1px;
+  padding: 8px 0 0 15px;
+}
+.button-options-reverse {
+  box-sizing: border-box;
+  height: 35px;
+  width: 316px;
+  border: 1px solid #e1e1e1;
+  background-color: #ffffff;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+}
+.button-options-reverse::before {
+  content: '';
+  border-style: solid;
+  border-width: 5px;
+  border-color: #666666 transparent transparent transparent;
+  position: absolute;
+  left: 8px;
+  top: 17px;
+}

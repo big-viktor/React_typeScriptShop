@@ -1,0 +1,6 @@
+.dropdown-menu1 {
+  width: 316px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}

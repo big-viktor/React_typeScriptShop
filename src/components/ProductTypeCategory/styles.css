@@ -1,0 +1,13 @@
+.product-type-category {
+    display: flex;
+    justify-content: center;
+    border: 5px none #dddddd;
+    border-bottom-style: double;
+    border-top-style: double;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 38px 0 ;
+    font-size: 34px;
+    color: #333333;
+    font-family:  "Raleway","Arial",sans-serif;
+}

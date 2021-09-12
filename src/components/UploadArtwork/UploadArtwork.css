@@ -1,0 +1,65 @@
+.upload-artwork {
+  height: 251px;
+  width: 200px;
+  border: 1px solid #d5d5d5;
+  display: flex;
+  flex-direction: column;
+  margin-top: 13px;
+  margin-bottom: 10px;
+}
+.upload-artwork-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.upload-artwork-plus {
+  color: #6495ce;
+  font-size: 20px;
+  padding-top: 22px;
+  margin-bottom: 4px;
+}
+.upload-artwork-title {
+  text-transform: uppercase;
+  text-align: center;
+  color: #6495ce;
+  font-family: Raleway;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  line-height: 12px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.upload-artwork-format {
+  color: #4a4a4a;
+  font-family: Raleway;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 2.5px;
+  line-height: 13px;
+  text-align: center;
+  margin-bottom: 11px;
+}
+.upload-artwork-text {
+  border-top: 2px solid #d5d5d5;
+  color: #4a4a4a;
+  font-family: Raleway;
+  font-size: 11px;
+  letter-spacing: 1.6px;
+  line-height: 1.31em;
+  padding: 18px 14px 0px 23px;
+}
+.upload-artwork-form {
+  border-top: 2px solid #d5d5d5;
+  color: #4a4a4a;
+  font-family: Raleway;
+  font-size: 11px;
+  letter-spacing: 0.79px;
+  line-height: 13px;
+}
+.upload-artwork-paint {
+  font-weight: bold;
+}
+.upload-artwork-tab {
+  color: #6495ce;
+}

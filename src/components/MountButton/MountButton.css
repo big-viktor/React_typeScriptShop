@@ -1,0 +1,59 @@
+.mount-container {
+  width: 316px;
+  border: 1px solid #e1e1e1;
+  padding: 3px 8px 3px 4px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.mount-textImg {
+  display: flex;
+  align-items: flex-start;
+}
+.mount-text {
+  color: #9b9b9b;
+  font-family: Arial, serif;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 14px;
+  align-self: baseline;
+  text-transform: uppercase;
+}
+.navigation-button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.setting-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.map-button {
+  padding: 0;
+  background-color: transparent;
+  margin-right: 4px;
+}
+.eye-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0 3px 0 1px;
+}
+.setting-img {
+  height: 20px;
+  width: 22px;
+}
+.map-img {
+  height: 15px;
+  width: 23px;
+}
+.eye-img {
+  height: 15px;
+  width: 15px;
+}
+.trashСan-img {
+  height: 13px;
+  width: 12px;
+}

@@ -1,0 +1,59 @@
+.check-container-tick {
+  width: 316px;
+  border: 1px solid #e1e1e1;
+  padding: 10px 3px 9px 38px;
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.check-box-tick {
+  display: flex;
+}
+.check-box-text-tick {
+  margin: 0;
+  text-transform: uppercase;
+  color: #9b9b9b;
+  font-family: Arial;
+  font-size: 12px;
+  letter-spacing: 0.1px;
+  line-height: 14px;
+}
+.setingg-button-tick-reverse {
+  background-color: transparent;
+  cursor: pointer;
+  width: 15px;
+  height: 14px;
+  padding: 0 0 1px 3px;
+  margin-right: 11px;
+  border-color: #9b9b9b;
+}
+.setingg-button-tick {
+  background-color: transparent;
+  cursor: pointer;
+  width: 15px;
+  height: 14px;
+  padding: 0 0 1.5px 3px;
+  margin-right: 11px;
+  border-color: #9b9b9b;
+}
+.setingg-button-tick::before {
+  content: '';
+  display: block;
+  width: 6px;
+  height: 8.5px;
+  border: solid #9b9b9b;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+.check-container-tick-reverse {
+  width: 316px;
+  border: 1px solid #e1e1e1;
+  padding: 9px 3px 7px 62px;
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.add-button-defult:hover {
+}

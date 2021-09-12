@@ -1,0 +1,13 @@
+.button-switches-container {
+  padding: 11px 3px 8px 5px;
+  border: 0px solid #eb1c1c;
+  width: 75%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: flex-end;
+}
+.button-switches-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}

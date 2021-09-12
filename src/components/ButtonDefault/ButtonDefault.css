@@ -1,0 +1,39 @@
+.check-add {
+  display: flex;
+}
+
+.check-add-value {
+  border-radius: 3px;
+  background-color: #4a4a4a;
+  cursor: pointer;
+  border: none;
+  height: 14px;
+  width: 56px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 9px;
+  letter-spacing: 0.4px;
+  margin-right: 5px;
+}
+.add-reverse {
+  display: flex;
+}
+.check-add-value-reverse {
+  border: none;
+  height: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 9px;
+  background-color: transparent;
+}
+.check-add-value-reverse:hover {
+  display: flex;
+  border: none;
+  height: 14px;
+  text-transform: uppercase;
+  color: #4a90e2;
+  font-family: Arial;
+  font-size: 9px;
+  background-color: transparent;
+}

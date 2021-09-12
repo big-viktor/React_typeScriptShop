@@ -1,0 +1,24 @@
+.section-menu-container {
+  padding: 15px 0px 10px 13px;
+  width: 170px;
+  background-color: #000000;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 6px;
+  box-shadow: 5px 4px 0 0 #adadad;
+  cursor: pointer;
+}
+.section-menu-button {
+  padding: auto;
+  margin: 1px 2px 3px 4px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  position: relative;
+  color: #6495ce;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1.8px;
+}
+.section-menu-button:hover {
+  background-color: #4a4a4a;
+}

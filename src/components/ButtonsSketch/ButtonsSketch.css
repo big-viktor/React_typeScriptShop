@@ -1,0 +1,16 @@
+.buttons-sketch-container {
+  width: 177px;
+  border: 1px solid #f8f8f8;
+  padding: 0px 0px 1px 5px;
+  background-color: #f8f8f8;
+}
+.buttons-sketch-img {
+  width: 30px;
+  height: 45px;
+}
+.buttons-sketch {
+  padding-right: 6px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}

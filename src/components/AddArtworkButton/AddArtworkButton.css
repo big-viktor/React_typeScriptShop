@@ -1,0 +1,43 @@
+.add-artwork-button-content {
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+  border-style: solid;
+  height: 54px;
+  width: 200px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 12px;
+  margin-right: 10px;
+}
+.add-artwork-button-text {
+  text-transform: uppercase;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  position: relative;
+  color: #9b9b9b;
+  font-family: '.SF NS Display';
+  font-size: 14px;
+  text-decoration: none !important;
+}
+.add-artwork-button-reverse {
+  border: 1px solid #6495ce;
+  border-radius: 2px;
+  border-style: solid;
+  height: 54px;
+  width: 200px;
+  text-align: center;
+  padding-top: 15px;
+  background-color: #6495ce;
+}
+.add-artwork-button-text-reverse {
+  text-transform: uppercase;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  position: relative;
+  color: #ffffff;
+  font-family: '.SF NS Display';
+  font-size: 15px;
+  text-decoration: none !important;
+}

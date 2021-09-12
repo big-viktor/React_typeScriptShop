@@ -1,0 +1,136 @@
+.menu-check-box-container {
+  width: 316px;
+  border: 1px solid #e1e1e1;
+  padding: 10px 9px 10px 20px;
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.menu-check-box-item {
+  display: flex;
+  align-items: flex-start;
+}
+.menu-check-button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding-left: 20px;
+}
+.menu-check-button::before {
+  content: '';
+  border-style: solid;
+  border-width: 6px;
+  border-color: #666666 transparent transparent transparent;
+  position: absolute;
+  left: 10px;
+  top: 14px;
+}
+.menu-check-button-reverse {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding-left: 20px;
+}
+.menu-check-button-reverse::before {
+  content: '';
+  border-style: solid;
+  border-width: 6px;
+  border-color: transparent transparent transparent #666666;
+  position: absolute;
+  left: 14px;
+  top: 12px;
+}
+.menu-tick-button-reverse::before {
+  content: '';
+  display: block;
+  width: 6px;
+  height: 8.5px;
+  border: solid #9b9b9b;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+.menu-check-box-text {
+  margin: 0;
+  text-transform: uppercase;
+  color: #9b9b9b;
+  font-family: Arial;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 14px;
+}
+.dropdown {
+  display: none;
+}
+.menu-check-container-tick {
+  width: 316px;
+  border: 1px solid #e1e1e1;
+  padding: 9px 7px 7px 40px;
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.menu-setingg-button-tick {
+  background-color: transparent;
+  cursor: pointer;
+  width: 15px;
+  height: 14px;
+  padding: 0 0 1px 3px;
+  margin-right: 11px;
+  margin-bottom: 3px;
+  border-color: #9b9b9b;
+}
+.menu-setingg-button-tick::before {
+  content: '';
+  display: block;
+  width: 6px;
+  height: 8.5px;
+  border: solid #9b9b9b;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+.menu-setingg-button-tick-reverse {
+  background-color: transparent;
+  cursor: pointer;
+  width: 15px;
+  height: 14px;
+  padding: 0 0 1px 3px;
+  margin-right: 11px;
+  margin-bottom: 3px;
+  border-color: #9b9b9b;
+}
+.menu-check-button-arrow {
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+.menu-check-button-arrow::before {
+  content: '';
+  border-style: solid;
+  border-width: 6px;
+  border-color: #666666 transparent transparent transparent;
+  position: absolute;
+  left: 23px;
+  top: 14px;
+}
+.menu-check-button-arrow-reverse {
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+.menu-check-button-arrow-reverse::before {
+  content: '';
+  border-style: solid;
+  border-width: 6px;
+  border-color: transparent transparent transparent #666666;
+  position: absolute;
+  left: 25px;
+  top: 11px;
+}
+.menu-check-box-tick {
+  display: flex;
+  justify-content: flex-start;
+}

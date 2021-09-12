@@ -1,0 +1,35 @@
+.add-artwork-tool-tip-container {
+  height: 166px;
+  width: 315px;
+  background-color: #dbecff;
+  box-shadow: 5px 5px 0 0 #d9d9d9;
+  position: absolute;
+}
+
+.add-artwork-tool-tip-container::before {
+  content: '';
+  border: 20px solid transparent;
+  border-right: 20px solid #dbecff;
+  position: absolute;
+  left: -40px;
+  top: 50%;
+  margin-top: -12px;
+}
+.add-artwork-tool-tip-text-container {
+  font-size: 11px;
+  display: flex;
+  letter-spacing: 1px;
+  line-height: 16px;
+  flex-direction: column;
+  padding: 15px 25px 25px 25px;
+  font-family: Raleway;
+}
+.add-artwork-tool-tip-text-container-header {
+  margin: 10px 0 5px 0;
+  text-transform: uppercase;
+  letter-spacing: 1.9px;
+  font-family: Raleway;
+}
+.add-artwork-tool-tip-text-container-header-color {
+  font-weight: bold;
+}

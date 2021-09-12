@@ -1,0 +1,49 @@
+.add-artwork-input-container {
+  height: 50px;
+  width: 600px;
+}
+.add-artwork-input-name {
+  font-family: Raleway;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.add-artwork-input {
+  border: none;
+  border: 1px solid #cccccc;
+  height: 34px;
+  width: 600px;
+  font-size: 14px;
+  padding-left: 10px;
+  font-weight: bold;
+  color: black;
+}
+.add-artwork-input-texterea {
+  border: none;
+  border: 1px solid #cccccc;
+  width: 600px;
+  height: 80px;
+  padding-left: 7px;
+  resize: none;
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-size: 15px;
+}
+.add-artwork-input-name-reverse {
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 16px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.add-artwork-input-container-reverse {
+  box-sizing: border-box;
+  min-height: 35px;
+  width: 600px;
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+  background-color: #ffffff;
+}

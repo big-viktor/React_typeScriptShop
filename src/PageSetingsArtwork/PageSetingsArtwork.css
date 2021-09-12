@@ -1,0 +1,92 @@
+.body-background {
+  background: rgba(0, 0, 0, 0.35);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+}
+.page-seting-artwork-container {
+  height: 669px;
+  width: 1317px;
+  border: 1px solid #ffffff;
+  border-radius: 13px;
+  padding: 40px 20px 0px 0px;
+  background: #ffffff;
+  position: relative;
+  margin: 0 auto;
+  top: 26px;
+  left: 40px;
+}
+.content-starts {
+  padding-left: 545px;
+  display: flex;
+  justify-content: space-around;
+}
+.name-container {
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 35px;
+  color: #9b9b9b;
+  font-family: Arial;
+  font-size: 24px;
+  letter-spacing: 2.12px;
+  text-transform: uppercase;
+}
+.button-exit {
+  padding-left: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.artwork-container {
+  display: flex;
+}
+.add-artwork-page {
+  display: flex;
+  justify-content: flex-start;
+}
+.artwork-conetn-page {
+  margin-left: 68px;
+  padding-right: 44px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.page-inputes-container {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.inpute-bottom {
+  padding-bottom: 45px;
+}
+.button-tool-tip-container {
+  display: flex;
+  padding-bottom: 10px;
+}
+.tool-tip-content {
+  display: flex;
+  align-items: center;
+}
+.button-tool-tip {
+  padding-right: 20px;
+  border: none;
+  background-color: transparent;
+}
+.button-text-tool-tip {
+  margin: 8px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  color: #4a4a4a;
+  font-family: Raleway;
+  letter-spacing: 1.3px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.container-buttons {
+  display: flex;
+  flex-direction: row;
+}
